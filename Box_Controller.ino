@@ -109,9 +109,9 @@ void loop() {
 
     if(digitalRead(switchPinMinotaur) == HIGH && isMinotaurDead == false){
       isMinotaurDead = true;
-      servoStatePlayer = 90;
+      servoStatePlayer = 180;
       delay(250);
-      servoStateMinotaur = 90;
+      servoStateMinotaur = 180;
     }
   }
 
